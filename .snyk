@@ -1,0 +1,30 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.22.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@vue/test-utils > lodash':
+        patched: '2021-11-25T05:43:05.673Z'
+    - html-webpack-plugin > lodash:
+        patched: '2021-11-25T05:43:05.673Z'
+    - '@babel/preset-env > @babel/plugin-transform-block-scoping > lodash':
+        patched: '2021-11-25T05:43:05.673Z'
+    - webpack-dev-server > http-proxy-middleware > lodash:
+        patched: '2021-11-25T05:43:05.673Z'
+    - babel-jest > @jest/transform > @babel/core > lodash:
+        patched: '2021-11-25T05:43:05.673Z'
+    - '@babel/preset-env > @babel/plugin-transform-modules-amd > @babel/helper-module-transforms > lodash':
+        patched: '2021-11-25T05:43:05.673Z'
+    - babel-jest > @jest/transform > @babel/core > @babel/traverse > lodash:
+        patched: '2021-11-25T05:43:05.673Z'
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > lodash':
+        patched: '2021-11-25T05:43:05.673Z'
+    - jest > jest-cli > jest-config > @babel/core > lodash:
+        patched: '2021-11-25T05:43:05.673Z'
+    - jest > jest-cli > jest-config > @babel/core > @babel/traverse > lodash:
+        patched: '2021-11-25T05:43:05.673Z'
+    - '@babel/preset-env > @babel/plugin-proposal-async-generator-functions > @babel/helper-remap-async-to-generator > @babel/traverse > @babel/generator > lodash':
+        patched: '2021-11-25T05:43:05.673Z'
+    - jest > jest-cli > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2021-11-25T05:43:05.673Z'
