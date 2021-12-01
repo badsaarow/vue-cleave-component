@@ -54,3 +54,4 @@ composer.phar
 /tmp/
 /coverage/
 
+.history
