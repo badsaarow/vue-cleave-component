@@ -33,10 +33,13 @@
     "start": "yarn run dev",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --config=webpack.config.dev.js",
     "build": "cross-env NODE_ENV=production webpack --mode production",
-    "prepublishOnly": "yarn run test && yarn run build"
+    "prepublishOnly": "yarn run test && yarn run build",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "cleave.js": "github:badsaarow/cleave.js#master"
+    "cleave.js": "github:badsaarow/cleave.js#master",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -82,5 +85,6 @@
     },
     "collectCoverage": true,
     "testURL": "http://localhost"
-  }
+  },
+  "snyk": true
 }
