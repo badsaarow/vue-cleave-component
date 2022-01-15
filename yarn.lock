@@ -1039,6 +1039,11 @@
     "@types/istanbul-reports" "^1.1.1"
     "@types/yargs" "^13.0.0"
 
+"@snyk/protect@latest":
+  version "1.827.0"
+  resolved "https://registry.yarnpkg.com/@snyk/protect/-/protect-1.827.0.tgz#ec84329a3fa6f169cb567f152187d6812c8156b1"
+  integrity sha512-W4VVgSMPDJ6FsuY00t69cgCtHV2OkZnlL3U9y66CFEAHn57RBUOsw7UT/JcS8A626oyDXEZSkYQO1vy6sB0UTw==
+
 "@types/babel__core@^7.1.0":
   version "7.1.16"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.16.tgz#bc12c74b7d65e82d29876b5d0baf5c625ac58702"
@@ -2920,9 +2925,9 @@ findup-sync@^3.0.0:
     resolve-dir "^1.0.1"
 
 follow-redirects@^1.0.0:
-  version "1.14.5"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.5.tgz#f09a5848981d3c772b5392309778523f8d85c381"
-  integrity sha512-wtphSXy7d4/OR+MvIFbCVBDzZ5520qV8XfPklSN5QtxuMUJZ+b0Wnst1e1lCDocfzuCkHqj8k0FpZqO+UIaKNA==
+  version "1.14.7"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.7.tgz#2004c02eb9436eee9a21446a6477debf17e81685"
+  integrity sha512-+hbxoLbFMbRKDwohX8GkTataGqO6Jb7jGwpAlwgy2bIz25XtRm7KEzJM76R1WiNT5SwZkX4Y75SwBolkpmE7iQ==
 
 for-each@^0.3.3:
   version "0.3.3"
