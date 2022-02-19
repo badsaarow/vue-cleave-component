@@ -58,7 +58,7 @@
     "jest": "^24.1.0",
     "style-loader": "^0.23.1",
     "unminified-webpack-plugin": "^2.0.0",
-    "vee-validate": "^2.1.7",
+    "vee-validate": "^4.5.7",
     "vue": "^3.2.0",
     "vue-loader": "^16.8.2",
     "vue-template-compiler": "^2.6.4",
