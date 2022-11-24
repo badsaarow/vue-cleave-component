@@ -38,7 +38,7 @@
     "snyk-protect": "snyk-protect"
   },
   "dependencies": {
-    "cleave.js": "github:badsaarow/cleave.js#master",
+    "cleave.js": "1.6.0",
     "@snyk/protect": "latest"
   },
   "devDependencies": {
